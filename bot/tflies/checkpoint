@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/nived/python-projects/NivedBot/bot/tflies/model.tflearn"
+all_model_checkpoint_paths: "/home/nived/python-projects/NivedBot/bot/tflies/model.tflearn"
