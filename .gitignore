@@ -128,7 +128,5 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-testing.py
-captured.json
-discord_bot.py
-bot/data.pth
+test.py
+.vscode
