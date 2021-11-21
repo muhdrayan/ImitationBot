@@ -16,7 +16,7 @@ NLTK:    ```pip install nltk```</br>
 2. Run chat.py 
 
 ## ToDo
-- [x] Make the Neural Network
+- [x] Neural Network for NLP (Natural Language Processing)
 - [ ] Data Collection System for Discord
 - [ ] Data Collection System for Instagram
 - [ ] Data Processing
