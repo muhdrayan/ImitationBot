@@ -1,3 +1,6 @@
+import os
+curdir = os.getcwd()
+
 import numpy as np
 import random
 import json
@@ -9,7 +12,7 @@ from torch.utils.data import Dataset, DataLoader
 from nltk_utils import bag_of_words, tokenize, stem
 from model import NeuralNet
 
-with open('/home/nived/python-projects/NivedBot/bot/intents.json', 'r') as f:
+with open(f'{curdir}/bot/intents.json', 'r') as f:
     intents = json.load(f)
 
 all_words = []
@@ -123,7 +126,7 @@ data = {
 "tags": tags
 }
 
-FILE = "/home/nived/python-projects/NivedBot/bot/data.pth"
+FILE = f"{curdir}/bot/data.pth"
 torch.save(data, FILE)
 
 print(f'training complete. file saved to {FILE}')
