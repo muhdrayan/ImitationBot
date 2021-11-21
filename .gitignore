@@ -129,6 +129,6 @@ dmypy.json
 .pyre/
 
 testing.py
-discord_bot.py
 captured.json
-.env
+discord_bot.py
+bot/data.pth
